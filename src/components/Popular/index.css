@@ -1,0 +1,49 @@
+.popular-main-container {
+  min-height: 100vh;
+  background-color: #131313;
+  color: #ffffff;
+}
+
+.popular-movies-container {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.popular-movies-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 25px;
+  justify-content: center;
+}
+
+.popular-all-content-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular-top-data-loader {
+  height: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-top-data-loader {
+    height: 400px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home-top-data-loader {
+    height: 75vh;
+    border-radius: 12px;
+  }
+}

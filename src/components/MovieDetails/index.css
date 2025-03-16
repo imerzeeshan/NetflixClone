@@ -1,0 +1,220 @@
+.movie-details-main-container {
+  min-height: 100vh;
+  background-color: #131313;
+  color: #ffffff;
+}
+
+.movie-details-container {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center center;
+  padding: 32px;
+  color: #fff;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .movie-details-container {
+    height: 520px;
+    padding: 80px 100px;
+  }
+}
+
+.movie-details-main-heading {
+  font-family: HK Grotesk;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .movie-details-main-heading {
+    font-size: 48px;
+  }
+}
+.movie-details-duration-and-year {
+  width: 208px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.movie-details-hours-and-year {
+  font-family: HK Grotesk;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 8px 0;
+}
+
+.movie-details-sensor-certificate {
+  border-radius: 2px;
+  border: 1px solid #fff;
+  padding-top: 2px;
+  padding-right: 12px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  gap: 10px;
+  font-family: HK Grotesk;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 8px 0;
+}
+
+.movie-details-description {
+  font-family: HK Grotesk;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 0;
+}
+
+.movie-details-play-btn {
+  width: 76px;
+  height: 32px;
+  border-radius: 3px;
+  border: none;
+  font-family: HK Grotesk;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 5%;
+  font-variant: small-caps;
+  color: #6e0273;
+}
+
+.movie-details-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.movie-details-genres-container {
+  margin-left: 32px;
+}
+
+.movie-details-ul-container {
+  padding-left: 0;
+  list-style: none;
+}
+
+.movie-details-headings {
+  font-family: HK Grotesk;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.movie-details-headings-items {
+  font-family: HK Grotesk;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin: 0;
+}
+
+.movie-details-similar-movies {
+  font-family: HK Grotesk;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.movie-details-similar-movie-main-container {
+  margin-left: 32px;
+  margin-top: 20px;
+}
+
+.movie-details-similar-movies-container {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-details-render-container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-details-slider-loader-container {
+  width: 85%;
+  height: 230px;
+  margin: 10px 0;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-details-hours-and-year {
+    font-size: 18px;
+    margin: 12px 0;
+  }
+  .movie-details-sensor-certificate {
+    font-size: 18px;
+    margin: 12px 0;
+    padding: 6px 12px;
+  }
+  .movie-details-description {
+    font-size: 20px;
+    line-height: 26px;
+    width: 555px;
+  }
+  .movie-details-play-btn {
+    border-radius: 4px;
+    padding: 8px 24px;
+  }
+  .movie-details-headings {
+    font-size: 18px;
+  }
+  .movie-details-headings-items {
+    font-size: 16px;
+  }
+  .movie-details-items-container {
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: space-between;
+  }
+  .movie-details-similar-movie-main-container {
+    margin-left: 152px;
+  }
+  .movie-details-similar-movies {
+    font-size: 24px;
+  }
+  .movie-details-render-container {
+    min-height: 100vh;
+  }
+  .slider-loader-container {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .movie-details-description {
+    width: 755px;
+  }
+  .slider-loader-container {
+    height: 550px;
+  }
+  .movie-details-container {
+    height: 520px;
+    padding: 80px 130px;
+  }
+}

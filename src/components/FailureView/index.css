@@ -1,0 +1,39 @@
+.failure-msg {
+  font-family: HK Grotesk;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.failure-retry-btn {
+  width: 77;
+  height: 28;
+  border-radius: 4px;
+  gap: 8px;
+  padding: 6px 10px;
+  font-family: HK Grotesk;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border: none;
+  color: #171f46;
+}
+
+.failure-alert-img {
+  width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-msg {
+    font-size: 16px;
+  }
+  .failure-retry-btn {
+    padding: 8px, 15px;
+    font-size: 16px;
+  }
+  .failure-alert-img {
+    width: 48px;
+  }
+}
